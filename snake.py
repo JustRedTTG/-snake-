@@ -1,7 +1,7 @@
-import pgerom as pe
+import pygameextra as pe
 from random import randint
 pe.init()
-pe.display.make((700,600),"Snake")
+pe.display.make((700, 600), "Snake")
 
 # FACTORS
 tailsize = 3
